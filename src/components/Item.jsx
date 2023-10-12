@@ -9,7 +9,7 @@ export const Item = ({ name, icon, m2 }) => {
             <p className="text-[21px] mt-5">{name}</p>
         </div>
 
-        <Counter />
+        <Counter m2={m2}/>
     
     </div>
   )
