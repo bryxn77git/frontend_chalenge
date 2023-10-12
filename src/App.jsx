@@ -1,5 +1,6 @@
 import { Items } from "./components/Items"
 import { NavBar } from "./components/NavBar"
+import { Summary } from "./components/Summary"
 
 
 export const App = () => {
@@ -15,6 +16,8 @@ export const App = () => {
         </section>
 
         <Items />
+
+        <Summary />
 
       </div>
     </>
